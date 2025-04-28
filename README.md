@@ -17,9 +17,9 @@ The train and validation dataset are structured as below:
 
 The test dataset is structured as below:
 - CBSD68
-- Kodak24
-- Set5
-- Urban100
+- Kodak24 (https://www.kaggle.com/datasets/drxinchengzhu/kodak24)
+- Set5 (http://people.rennes.inria.fr/Aline.Roumy/results/SR_BMVC12.html)
+- Urban100 (https://github.com/jbhuang0604/SelfExSR)
 - AVIP (in-house curated dataset)
 
 ## Code description
