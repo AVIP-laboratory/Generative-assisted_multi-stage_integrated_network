@@ -37,9 +37,12 @@ The GainNet configuration model consists of `UNet_backbone.py` and `DE_block.py`
 The `/trained model/` folder contains the trained models that constitute the GainNet. The trained models are saved as `.pth` file.
 
 ## Evaluation
-  
-![fig 5](https://github.com/user-attachments/assets/b83ac977-e3d6-4f2f-89fc-dd245c42c02b)  
-**Fig. 1.** Visual comparison for a noisy image from Kodak24 dataset with various noise levels. (a) The input with varying noise: 𝜎 = 50, 75, 90, 110 (PSNR = 14.59, 11.73, 10.88, 9.65 dB). (b) The denoising results of DnCNN (PSNR = 26.95, 24.57, 22.83, 21.83 dB), (c) FFDNet (PSNR = 27.41, 24.51, 22.69, 21.28 dB), (d) DudeNet (PSNR = 27.62, 25.12, 23.19, 22.30 dB), (e) NIFBGDNet (PSNR = 27.34, 24.87, 23.07, 22.05 dB), and (f) the proposed GainNet (PSNR = 28.20, 26.45, 26.98, 24.68 dB).
 
-![fig 7](https://github.com/user-attachments/assets/2649bdbb-9954-4eb6-af1d-4a94798ca526)  
-**Fig. 2.** Visual comparison for noisy ‘Bird’ image from Set5 dataset with various noise levels. (a) The input with varying noise: 𝜎 = 50, 75, 90, 110 (PSNR = 15.48, 12.47, 11.27, 10.04 dB). (b) The denoising results of DnCNN, (PSNR = 25.05, 21.55, 19.84, 18.13 dB), (c) FFDNet (PSNR = 25.43, 21.62, 19.90, 17.98 dB), (d) DudeNet (PSNR =25.04, 21.62, 20.03, 18.30 dB), (e) NIFGDNet (PSNR = 25.42, 21.82, 20.29, 18.50 dB), and (f) the proposed GainNet (29.05, 27.16, 26.27, 25.18 dB).
+![image](https://github.com/user-attachments/assets/c8018ec0-7980-409d-909c-72d3fad8a4e0)
+**Fig. 1.**Visual comparison of denoising results with Kodak24 dataset under extreme noise conditions (𝜎 ≥ 50). (a) Input noisy images with varying noise level: 𝜎 = 50, 75, 90, 110 (PSNR = 14.59, 11.73, 10.88, 9.65 dB). (b) Denoising results of DnCNN (PSNR = 26.95, 24.57, 22.83, 21.83 dB), (c) FFDNet (PSNR = 27.41, 24.51, 22.69, 21.28 dB), (d) DudeNet (PSNR = 27.62, 25.12, 23.19, 22.30 dB), (e) NIFBGDNet (PSNR = 27.34, 24.87, 23.07, 22.05 dB), (f) DRDNet (PSNR = 27.43, 24.99, 23.68, 22.24 dB), and (g) the proposed GainNet (PSNR = 28.20, 26.45, 26.98, 24.68 dB).
+
+![image](https://github.com/user-attachments/assets/2bf457e5-4d67-470a-b0c2-2467d7f00331)
+**Fig. 2.** Visual comparison of denoising results with Set5 dataset under extreme noise conditions (𝜎 ≥ 50). (a) Input noisy images with varying noise level: 𝜎 = 50, 75, 90, 110 (PSNR = 15.48, 12.47, 11.27, 10.04 dB). (b) Denoising results of DnCNN (PSNR = 25.05, 21.55, 19.84, 18.13 dB), (c) FFDNet (PSNR = 25.43, 21.62, 19.90, 17.98 dB), (d) DudeNet (PSNR = 25.04, 21.62, 20.03, 18.30 dB), (e) NIFBGDNet (PSNR = 25.42, 21.82, 20.29, 18.50 dB), (f) DRDNet (PSNR = 25.13, 21.72, 20.01, 18.37 dB), and (g) the proposed GainNet (PSNR = 29.05, 27.16, 26.27, 25.18 dB).
+
+![image](https://github.com/user-attachments/assets/0af9602a-16fb-4b03-82d8-45222994ec97)
+**Fig. 2.** Visual comparison of denoising results with AVIP dataset under extreme noise conditions (𝜎 ≥ 50). (a) Input noisy images with varying noise level: 𝜎 = 50, 75, 90, 110 (PSNR = 14.82, 11.94, 10.84, 9.77 dB). (b) Denoising results of DnCNN (PSNR = 24.79, 22.25, 21.05, 19.71 dB), (c) FFDNet (PSNR = 25.11, 22.12, 20.66, 19.01 dB), (d) DudeNet (PSNR = 25.32, 22.70, 21.43, 20.02 dB), (e) NIFBGDNet (PSNR = 26.94, 22.43, 21.28, 19.88 dB), (f) DRDNet (PSNR = 25.27, 22.74, 21.48, 20.07 dB), and (g) the proposed GainNet (PSNR = 25.80, 23.97, 23.22, 22.56 dB).
