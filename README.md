@@ -20,6 +20,7 @@ The test dataset is structured as below:
 - Kodak24
 - Set5
 - Urban100
+- AVIP
 
 ## Code description
 ### Models
