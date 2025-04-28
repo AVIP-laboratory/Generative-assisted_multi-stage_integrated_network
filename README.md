@@ -1,4 +1,5 @@
 # Generative-assisted multi-stage integrated network
+## Generative-assisted multi-stage integrated network: Tackling extreme noise in image denoising, Results in Engineering, Volume 26, 2025, 104999, ISSN 2590-1230, https://doi.org/10.1016/j.rineng.2025.104999.
 Noise degrades image quality and can result in the loss of important information, making its removal or minimization essential. However, as noise levels increase, eliminating it becomes exponentially more challenging. This project proposes a **Generative-assisted  multi-stage integrated network (GainNet)** capable of restoring the textural details and patterns of original images lost due to extreme noise. We will keep you informed with additional details about this project.
 ## Requirements
 - pytorch 1.21
