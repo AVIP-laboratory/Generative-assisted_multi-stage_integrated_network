@@ -35,7 +35,7 @@ The GainNet configuration model consists of `UNet_backbone.py` and `DE_block.py`
 - `train_GainNet.py` and `test_GainNet.py` are responsible for training GainNet and evaluating the trained model, respectively.
 
 ## Saved model
-The `/trained model/` folder contains the trained models that constitute the GainNet. The trained models are saved as `.pth` file.
+The `/Saved model/` folder contains the trained models that constitute the GainNet. The trained models are saved as `.pth` file.
 
 ## Evaluation
 
